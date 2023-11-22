@@ -1,10 +1,9 @@
 
 
-
-
 html, body, ul, li {
 	margin: 0;
 	padding: 0;
+    
 }
 
 
@@ -351,7 +350,55 @@ footer {
 }
 
 .btn-flotante:hover {
-    background-color: #7284d7;
+    background-color: #7972d7;
     color: #fff;
 }
 
+
+/* Estilos gerais para telas grandes */
+/* ... (seus estilos existentes) ... */
+
+/* Estilos para telas médias e pequenas */
+@media only screen and (max-width: 768px) {
+    header {
+       flex-direction: column;
+    }
+ 
+    nav ul {
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    nav li {
+       margin: 10px 0;
+    }
+ 
+    .hero {
+       height: auto;
+    }
+ 
+    .hero-content {
+       padding: 30px;
+    }
+ 
+    .column {
+       flex-basis: 100%;
+    }
+ 
+    .image-container {
+       height: auto;
+    }
+ 
+    .image-container img {
+       width: 100%;
+       height: auto;
+    }
+ 
+    /* Adicione mais estilos responsivos conforme necessário */
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
