@@ -355,13 +355,15 @@ footer {
 }
 
 
-/* Estilos gerais para telas grandes */
-/* ... (seus estilos existentes) ... */
 
 /* Estilos para telas médias e pequenas */
 @media only screen and (max-width: 768px) {
     header {
        flex-direction: column;
+    }
+
+    nav {
+        display: none; /* Oculta o menu de navegação */
     }
  
     nav ul {
